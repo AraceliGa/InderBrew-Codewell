@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigin-up</title>
+    <link rel="stylesheet" href="siginup.css">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+<link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+<link href = "https: //fonts.googleapis.com/css2? family = DM + Sans: wght @ 400; 500; 700 & family = Roboto: wght @ 100; 300; 500 & display = swap "rel =" stylesheet ">
+<link rel="stylesheet" href="sigin-desktop.css" media="(min-width: 1025px)">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="assets/Logo.svg" alt="Logo IndieBrew"></div>
+            <a href="index.html" class="menuicon"><img src="assets/Back Arrow.svg" alt="Logo menuicon"></a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="box-one">
+                <h1>Create your personalized feed.</h1>
+                <div class="item">
+                    <p class="emoji">🎈</p>
+                    <p><strong>Over 20 resources.</strong> With resources ranging from Reddit to IndieHackers, we've got all your need covered.</p>
+                </div>
+                <div class="item">
+                    <p class="emoji">🗞</p>
+                    <p><strong>Delivered weekly.</strong> Every week at exaclty Tuesday 12:00 P.M est - expect a value-packed digest tight in your email. </p>
+                </div>
+                <div class="item">
+                    <p class="emoji">💡</p>
+                    <p><strong>Unlimited ideas.</strong> With all the ideas you'll be reading about, what's stopping you from creating a sustainable startup?</p>
+                </div>
+            </div>
+            <div class="box-two">
+                <h2>Create your IndieBrew Account</h2>
+                <form action="#">
+                    <div class="form-details">
+                        <p class="form-title">Email</p>
+                        <label for="">
+                            <input class="form" type="email" placeholder="john@example.com" required>
+                        </label>
+                    </div>
+                    <div class="form-details">
+                        <p class="form-title">Full Name</p>
+                        <label for="">
+                            <input class="form" type="text" placeholder="John Doe" required>
+                        </label>
+                    </div>
+                    <div class="form-details">
+                        <p class="form-title">Password</p>
+                        <label for="">
+                            <input class="form" type="password" placeholder="At least 8 characters" required>
+                        </label>
+                    </div>
+                    <div class="terms">
+                        <label for="#">
+                            <input type="checkbox" required >
+                            <p>By creating an account, you agree to the <a href="#">Terms & Conditinons.</a></p>
+                        </label>
+                    </div>
+                    <button type="submit"><a href="#">Create an Account</a></button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
